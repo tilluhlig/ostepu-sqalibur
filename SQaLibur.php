@@ -89,19 +89,31 @@ class SQaLibur {
         $myProfile->addRule(GateRule::createGateRule(null,
                                                      'httpCall',
                                                      'DBOOP',
-                                                     'GET /???',
+                                                     'POST /insert',
                                                      null));
                                                      
         $myProfile->addRule(GateRule::createGateRule(null,
                                                      'httpCall',
                                                      'LMarking',
-                                                     'GET /???',
+                                                     'POST /marking',
                                                      null));
                                                      
         $myProfile->addRule(GateRule::createGateRule(null,
                                                      'httpCall',
                                                      'FSPdf',
-                                                     'GET /???',
+                                                     'POST /pdf',
+                                                     null));
+                                                     
+        $myProfile->addRule(GateRule::createGateRule(null,
+                                                     'httpCall',
+                                                     'LExerciseSheet',
+                                                     'GET /exercisesheet/exercisesheet/:sheetid',
+                                                     null));
+                                                     
+        $myProfile->addRule(GateRule::createGateRule(null,
+                                                     'httpCall',
+                                                     'LExerciseSheet',
+                                                     'GET /exercisesheet/course/:courseid',
                                                      null));
                                                      
         $myProfile->addAuth(GateAuth::createGateAuth(null,
