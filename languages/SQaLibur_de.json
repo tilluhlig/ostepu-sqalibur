@@ -1,7 +1,7 @@
 {
     "main": {
         "title": "SQaLibur",
-        "description": "Dieser Bereich gehört zum SQaLibur Modul. Sie können hier das Passwort festlegen, welches Sie dann bei SQaLibur eintragen müssen, sodass es die benötigten internen Komponenten zugreifen kann.",
+        "description": "Dieser Bereich gehört zum SQaLibur Modul. Sie können hier das Passwort festlegen, welches Sie dann bei SQaLibur eintragen müssen, sodass es die benötigten internen Komponenten zugreifen kann. Dabei wird SQaLibur die Komponenten DBOOP, FSPdf, LExerciseSheet und LMarking verwenden.",
         "setPasswd": "Passwort"
     }
 }
