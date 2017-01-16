@@ -116,6 +116,30 @@ class SQaLibur {
                                                      'GET /exercisesheet/course/:courseid',
                                                      null));
                                                      
+        $myProfile->addRule(GateRule::createGateRule(null,
+                                                     'httpCall',
+                                                     'DBProcessList',
+                                                     'POST /process',
+                                                     null));
+                                                     
+        $myProfile->addRule(GateRule::createGateRule(null,
+                                                     'httpCall',
+                                                     'DBProcessList',
+                                                     'DELETE /process/process/:processid',
+                                                     null));
+                                                     
+        $myProfile->addRule(GateRule::createGateRule(null,
+                                                     'httpCall',
+                                                     'DBProcessList',
+                                                     'GET /process/course/:courseid/component/:componentid',
+                                                     null));
+                                                     
+        $myProfile->addRule(GateRule::createGateRule(null,
+                                                     'httpCall',
+                                                     'FSBinder',
+                                                     'GET /:folder/:a/:b/:c/:file/:filename',
+                                                     null));
+                                                     
         $myProfile->addAuth(GateAuth::createGateAuth(null,
                                                      'httpAuth',
                                                      null,
