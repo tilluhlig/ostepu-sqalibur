@@ -5,7 +5,7 @@ Die Installation von SQaLibur erfolgt über die Einbindung in den Installationsa
 ![A: Paket installieren](images/A_markiert.png)
 > A: Paket installieren
 
-Für die Anbindung an OSTEPU wird zunächst das Paket von SQaLibur in der Paketauswahl selektiert (Abbildung A) und damit die Erweiterung des Installationsassistenten vorgenommen. Nun enthält dieser neue Bereiche wie den in \abb{sqaliburKonfiguration} und eine Erweiterung der Komponenteninstallation in Abbildung B.
+Für die Anbindung an OSTEPU wird zunächst das Paket von SQaLibur in der Paketauswahl selektiert (Abbildung A) und damit die Erweiterung des Installationsassistenten vorgenommen. Nun enthält dieser neue Bereiche wie den in Abbildung C und eine Erweiterung der Komponenteninstallation in Abbildung B.
 
 ![B: SQaLibur als Komponente installieren](images/B_markiert.png)
 > B: SQaLibur als Komponente installieren
