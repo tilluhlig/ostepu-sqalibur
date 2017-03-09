@@ -1,4 +1,4 @@
-# SQaLibur
+# SQaLibur - Erweiterung des Installationsassistenten von OSTEPU
 
 Die Installation von SQaLibur erfolgt über die Einbindung in den Installationsassistenten von OSTEPU. Dabei muss das Servlet von SQaLibur bereits von der Projektseite heruntergeladen und eingerichtet sein, sodass wir SQaLibur bereits als Webservice ansprechen können.
 
