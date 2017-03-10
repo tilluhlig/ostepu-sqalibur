@@ -94,6 +94,12 @@ class SQaLibur {
                                                      
         $myProfile->addRule(GateRule::createGateRule(null,
                                                      'httpCall',
+                                                     'DBSubmission',
+                                                     'GET /submission/submission/:suid',
+                                                     null));
+                                                     
+        $myProfile->addRule(GateRule::createGateRule(null,
+                                                     'httpCall',
                                                      'LMarking',
                                                      'POST /marking',
                                                      null));
